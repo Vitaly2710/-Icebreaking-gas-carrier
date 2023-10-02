@@ -1,1 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue Cyr Thin';
+  src: url('assets/HelveticaNeueCyr-Thin.eot');
+  src: url('assets/HelveticaNeueCyr-Thin.eot?#iefix') format('embedded-opentype'),
+  url('assets/HelveticaNeueCyr-Thin.woff') format('woff'),
+  url('assets/HelveticaNeueCyr-Thin.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 /* You can add global styles to this file, and also import other style files */
