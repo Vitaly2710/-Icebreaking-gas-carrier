@@ -5,11 +5,13 @@ import { AppComponent } from './app.component';
 import {MainComponent} from "./pages/main/main.component";
 import {FirstScreenComponent} from "./share/components/first-screen/first-screen.component";
 import {MatIconModule} from '@angular/material/icon'
+import {NewsComponent} from "./share/components/news/news.component";
 @NgModule({
   declarations: [
     AppComponent,
     MainComponent,
-    FirstScreenComponent
+    FirstScreenComponent,
+    NewsComponent
   ],
   imports: [
     BrowserModule,
