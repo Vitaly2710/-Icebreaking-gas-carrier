@@ -1,0 +1,21 @@
+<div class="new-wrapper">
+  <div class="news-container">
+    <section class="news-block">
+      <div class="news-head">
+        <h3>Новости</h3>
+        <p>Все новости</p>
+      </div>
+      <div class="news-items" *ngIf="news">
+        <div class="news-item" *ngFor="let i of news">
+          <div class="news-day-wrapper">
+            <div class="news-day">{{i.time | date:'d EEEE yyyy' }}</div>
+          </div>
+          <div class="news-text-wrapper">
+            <p class="item-title">{{i.headline}}</p>
+            <p class="item-text">{{i.text}}</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
