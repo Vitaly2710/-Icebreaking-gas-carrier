@@ -7,13 +7,15 @@ import {FirstScreenComponent} from "./share/components/first-screen/first-screen
 import {MatIconModule} from '@angular/material/icon'
 import {NewsComponent} from "./share/components/news/news.component";
 import {HistoryComponent} from "./share/components/history/history.component";
+import {PublicationComponent} from "./share/components/publication/publication.component";
 @NgModule({
   declarations: [
     AppComponent,
     MainComponent,
     FirstScreenComponent,
     NewsComponent,
-    HistoryComponent
+    HistoryComponent,
+    PublicationComponent
   ],
   imports: [
     BrowserModule,

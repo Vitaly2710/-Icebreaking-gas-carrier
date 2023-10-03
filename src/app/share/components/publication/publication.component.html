@@ -1,0 +1,18 @@
+<div class="publication-wrapper">
+  <div class="publication-container">
+    <section class="publication-main">
+      <div class="publication-head">
+        <h4>Публикации</h4>
+        <h5>Все публикации</h5>
+      </div>
+      <div class="publications-blocks" *ngIf="publication">
+        <div class="publications-block item" *ngFor="let i of publication">
+          <img src="{{i.img}}" alt="ship">
+          <p class="item-date">{{i.date | date:'d EEEE yyyy'}}</p>
+          <p class="item-title">{{i.title}}</p>
+          <p  class="item-link">{{i.link}}</p>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
