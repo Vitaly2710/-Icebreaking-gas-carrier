@@ -8,6 +8,7 @@ import {MatIconModule} from '@angular/material/icon'
 import {NewsComponent} from "./share/components/news/news.component";
 import {HistoryComponent} from "./share/components/history/history.component";
 import {PublicationComponent} from "./share/components/publication/publication.component";
+import {ProjectsComponent} from "./share/components/projects/projects.component";
 @NgModule({
   declarations: [
     AppComponent,
@@ -15,7 +16,8 @@ import {PublicationComponent} from "./share/components/publication/publication.c
     FirstScreenComponent,
     NewsComponent,
     HistoryComponent,
-    PublicationComponent
+    PublicationComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,

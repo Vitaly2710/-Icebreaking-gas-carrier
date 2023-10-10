@@ -1,0 +1,152 @@
+.projects-wrapper {
+  background-color: rgba(19, 61, 141, 0.5);
+
+}
+
+.projects-container {
+  max-width: 1296px;
+  margin: 0 auto;
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+}
+
+.projects-head {
+  display: flex;
+  justify-content: space-between;
+
+  h4 {
+    color: #FFFFFF;
+    font-family: Helvetica Neue Cyr Thin, serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 19.6px */
+  }
+
+  .projects-all-projects-wrapper {
+    display: flex;
+    align-items: center;
+
+    h5 {
+      margin-right: 2.5rem;
+      color: #FFFFFF;
+      font-family: Helvetica Neue Cyr Thin, serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 140%; /* 19.6px */
+    }
+  }
+}
+
+.projects-report {
+  margin-top: 5rem;
+  display: flex;
+
+  .projects-overall {
+    //max-width: 706px;
+    position: relative;
+    color: #FFFFFF;
+    font-family: Helvetica Neue Cyr Thin, serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 19.6px */
+
+    .wrapper-info {
+      position: absolute;
+      bottom: 0;
+      padding: 3rem;
+
+      .name-of-project {
+        font-size: 24px;
+        font-weight: 600;
+      }
+
+      .project-info {
+        margin-top: 1.5rem;
+        max-width: 455px;
+      }
+    }
+
+    img {
+      height: 100%;
+    }
+  }
+
+  .projects-trait {
+    padding: 3.5rem 4rem;
+    background-color: #133D8D;
+
+    .trait-features {
+      color: #FFFFFF;
+      font-family: Helvetica Neue Cyr Thin, serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 140%; /* 19.6px */
+
+      .larger-font {
+        font-weight: 600;
+        font-size: 40px;
+
+        span {
+          font-size: 14px
+        }
+      }
+
+      .trait-features-part-one {
+        display: flex;
+        gap: 2.5rem;
+
+        .ship-weight {
+          p:last-child {width: 210px};
+        }
+
+        div {
+          p:last-child {
+            margin-top: 0.8rem;
+          }
+        }
+      }
+
+      .trait-features-part-two {
+        display: flex;
+        gap: 2.5rem;
+        margin-top: 3rem;
+
+        div {
+          p:last-child {
+            margin-top: 0.8rem;
+            width: 210px;
+          }
+        }
+
+      }
+    }
+
+    .trait-features-more {
+      margin-top: 16rem;
+      padding: 1rem 2rem;
+      color: #ffffff;
+      font-family: Helvetica Neue Cyr Thin, serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      background: transparent;
+      border: rgba(255, 255, 255, 0.52) solid 1px;
+
+    }
+
+  }
+
+}
+
+.arrows {
+  display: flex;
+  gap: 0.9rem;
+  div {
+    padding: 1rem;
+    background-color: #133D8D;
+  }
+}
