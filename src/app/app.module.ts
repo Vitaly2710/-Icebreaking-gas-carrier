@@ -9,6 +9,7 @@ import {NewsComponent} from "./share/components/news/news.component";
 import {HistoryComponent} from "./share/components/history/history.component";
 import {PublicationComponent} from "./share/components/publication/publication.component";
 import {ProjectsComponent} from "./share/components/projects/projects.component";
+import {SecurityComponent} from "./share/components/security/security.component";
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,7 +18,8 @@ import {ProjectsComponent} from "./share/components/projects/projects.component"
     NewsComponent,
     HistoryComponent,
     PublicationComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    SecurityComponent
   ],
   imports: [
     BrowserModule,
