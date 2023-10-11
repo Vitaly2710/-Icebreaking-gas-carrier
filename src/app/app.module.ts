@@ -10,6 +10,7 @@ import {HistoryComponent} from "./share/components/history/history.component";
 import {PublicationComponent} from "./share/components/publication/publication.component";
 import {ProjectsComponent} from "./share/components/projects/projects.component";
 import {SecurityComponent} from "./share/components/security/security.component";
+import {FooterComponent} from "./share/components/footer/footer.component";
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +20,8 @@ import {SecurityComponent} from "./share/components/security/security.component"
     HistoryComponent,
     PublicationComponent,
     ProjectsComponent,
-    SecurityComponent
+    SecurityComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
