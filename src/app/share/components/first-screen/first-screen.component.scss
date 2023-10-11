@@ -5,6 +5,12 @@
 }
 
 .first-screen-wrapper {
+  background-image: url("./../../../../assets/Rectangle23.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.first-screen-container {
   max-width: 1294px;
   margin: 0 auto;
   padding: 1.5rem 0 5rem 0;

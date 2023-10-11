@@ -1,0 +1,66 @@
+.header-wrapper {
+  background-color: #133D8D;
+}
+
+.header-container {
+  max-width: 1294px;
+  margin: 0 auto;
+  padding: 1.5rem 0 2rem 0;
+}
+
+.main-info {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.50);
+  padding-bottom: 1.5rem;
+
+  .contacts {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+
+    .contacts-mail {
+      font-family: Helvetica Neue Cyr Thin, serif;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 550;
+      line-height: 140%;
+      color: #FFFF
+    }
+
+    .contact-phone {
+      font-family: Helvetica Neue Cyr Thin, serif;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 550;
+      line-height: 140%;
+      color: #FFFF
+
+    }
+  }
+
+  .logo-wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+}
+
+.nav-panel {
+  margin-top: 1.7rem;
+  display: flex;
+  width: 1297px;
+  justify-content: space-between;
+  align-items: center;
+
+  p {
+    color: #FFFF;
+    font-family:  Helvetica Neue Cyr Thin, serif;;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+  }
+}

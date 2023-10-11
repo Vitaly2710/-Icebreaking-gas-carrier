@@ -11,6 +11,16 @@ import {PublicationComponent} from "./share/components/publication/publication.c
 import {ProjectsComponent} from "./share/components/projects/projects.component";
 import {SecurityComponent} from "./share/components/security/security.component";
 import {FooterComponent} from "./share/components/footer/footer.component";
+import {RouterModule, Routes} from "@angular/router";
+import {ServicesComponent} from "./pages/services/services.component";
+import {HeaderComponent} from "./share/components/header/header.component";
+import {ServiceInfoComponent} from "./share/components/service-info/service-info.component";
+
+const appRoutes: Routes =[
+  { path: '', component: MainComponent},
+  { path: 'services', component: ServicesComponent},
+  { path: '**', component: MainComponent }
+];
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,11 +31,15 @@ import {FooterComponent} from "./share/components/footer/footer.component";
     PublicationComponent,
     ProjectsComponent,
     SecurityComponent,
-    FooterComponent
+    FooterComponent,
+    ServicesComponent,
+    HeaderComponent,
+    ServiceInfoComponent
   ],
   imports: [
     BrowserModule,
-    MatIconModule
+    MatIconModule,
+    RouterModule.forRoot(appRoutes)
   ],
   providers: [],
   bootstrap: [AppComponent]
