@@ -6,9 +6,46 @@
   max-width: 1296px;
   margin: 0 auto;
   padding-top: 3.5rem;
+  padding-bottom: 4.5rem;
+
 
   .logo {
     max-width: 3rem;
     margin: 0 auto;
+  }
+
+  .footer-block {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+    margin-top: 2.5rem;
+    color: #FFFFFF;
+    font-family: Helvetica Neue Cyr Thin, serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: 140%; /* 22.4px */
+    letter-spacing: 0.8px;
+
+    .footer-header {
+      font-size: 16px;
+      font-weight: 700;
+
+    }
+
+    ul {
+      margin-top: 1.5rem;
+
+      ol {
+        margin-top: 1rem;
+      }
+    }
+
+    .footer-contacts {
+      ol {
+        text-align: right;
+        max-width: 265px;
+      }
+    }
   }
 }
